@@ -1,7 +1,13 @@
 body{
     background-image: 
-    url('images/background.png');
+    url('images/mixboard1.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    display: grid;
+    place-content: left;
+}
+
+.mb-sm{
+    margin-bottom: 200px;
 }
